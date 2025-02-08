@@ -21,7 +21,7 @@ A simple "Hello World" mobile application built with React Native and Expo, demo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/flickShot555/hello-world-app.git
+   git clone https://github.com/flickShot555/Basic-app.git
    ```
 
 2. install the dependencies:
