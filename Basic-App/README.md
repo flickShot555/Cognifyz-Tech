@@ -21,7 +21,7 @@ A simple "Hello World" mobile application built with React Native and Expo, demo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/flickShot555/hello-world-app.git
+   git clone https://github.com/flickShot555/Basic-app.git
    ```
 
 2. install the dependencies:
@@ -39,15 +39,25 @@ A simple "Hello World" mobile application built with React Native and Expo, demo
 ## Project Structure
 
 Basic-app/
+
 ├── .expo                 # Expo configuration files
+
 ├── assets                # Image assets
+
 ├── node_modules          # Dependency management
+
 ├── .gitignore            # Git configuration
+
 ├── App.js                # Main application component
+
 ├── app.json              # app configuration
+
 ├── index.js              # Main application entry point
+
 ├── package-lock.json     # Dependency management
+
 ├── package.json          # Dependency management
+
 └── README.md             # Project documentation
 
 ## 🌟 Future Enhancements
@@ -71,7 +81,11 @@ Basic-app/
 ## 📧 Contact
 
 author: Abbas Khan
+
 Email: abbas1795khan@gmail.com
+
 LinkedIn: https://linkedin.com/in/the-abbas-khan
+
 GitHub: https://github.com/flickShot555/
+
 Website: https://www.aepostrophee.kesug.com
