@@ -15,17 +15,48 @@ export default function App() {
           />
           <View style={styles.bannerTextContainer}>
             <Text style={styles.bannerText}>Abbas Inayatullah Khan</Text>
-            <Text style={styles.bannerText}>BS in Software Engineering</Text>
+            <Text style={styles.bannerText}>BS Software Engineering</Text>
           </View>
         </View>
 
         <View style={styles.sectionBreak}></View>
 
         <View style={styles.sections}>
-
+          <Text style={styles.smallHeadings}>Certifications:</Text>
+          <Text style={styles.text}>-{'>'} Full Stack Web Development {`(`}React & Node.js{`)`}</Text>
+          <Text style={styles.text}>-{'>'} php and MySQL for backend</Text>
+          <Text style={styles.text}>-{'>'} Postman API Student Expert</Text>
         </View>
+
+        <View style={styles.sections}>
+          <Text style={styles.smallHeadings}>Projects:</Text>
+          <ScrollView>
+          <Text style={styles.text}>-{'>'} Personal Portfolio Website {`(`}Web | Front-end{`)`}</Text>
+          <Text style={styles.text}>-{'>'} Car Showroom Management System {`(`}Web | Full Stack{`)`}</Text>
+          <Text style={styles.text}>-{'>'} College Social Media Website {`(`}Web | Front-end{`)`}</Text>
+          <Text style={styles.text}>-{'>'} IT Services Company Website {`(`}Web | Front-end{`)`}</Text>
+          <Text style={styles.text}>-{'>'} E-Commerce Website {`(`}Web | Front-end{`)`}</Text>
+          <Text style={styles.text}>-{'>'} Online Compiler Website {`(`}Web | Front-end{`)`}</Text>
+          <Text></Text>
+          <Text style={styles.text}>-{'>'} Web Scrapper App {`(`}Python | Flask {`)`}</Text>
+          <Text style={styles.text}>-{'>'} Weather Data Fetching App {`(`}Python | Flask {`)`}</Text>
+          <Text></Text>
+          <Text style={styles.text}>-{'>'} Water Reminder App {`(`}JavaScript | React-Native {`)`}</Text>
+          <Text style={styles.text}>-{'>'} Counter App {`(` }JavaScript | React-Native {`)`}</Text>
+          <Text></Text>
+          <Text style={styles.text}>-{'>'} KNN model for Iris Detection system {`(`}Python | ML {`)`}</Text>
+          <Text></Text>
+          <Text style={styles.text}>-{'>'} AutoMobile Sales Management System {`(` }Java | {`)`}</Text>
+          </ScrollView>
+        </View>
+
+        <View style={styles.sections}>
+          Cears thr =======
+        </View>
+
+        {/*
         <Text>My Age is: 25</Text>
-        <Text style={{padding: 20}}>My Address is: 123, Main Street, New York, USA</Text>
+        <Text style={{padding: 20}}>My Address is: 123, ====Main Street, New York, USA</Text>
         <Text>My Email is: johndoe@example.com</Text>
         <Text>My Phone Number is: 1234567890</Text>
         <Text>My Skills are: React Native, Node.js, MongoDB</Text>
@@ -38,6 +69,7 @@ export default function App() {
         <Text>My Portfolio is: https://www.example.com/johndoe/portfolio</Text>
         <Text>My Recommendations are: 5</Text>
         <Text>My References are: 3</Text>
+        */}
       </ScrollView>
       <StatusBar style="auto" />
     </SafeAreaView>
@@ -88,22 +120,24 @@ const styles = StyleSheet.create({
 
   sections:{
     flexDirection:'column',
-    marginTop:10,
+    marginTop:20,
     padding: 20,
     backgroundColor:'#2B2B2B',
     borderRadius:10,
+    height:170,
     
   },
 
   smallHeadings:{
     color: '#ff4509',
-    fontSize: 20,
+    fontSize: 15,
     fontWeight:'bold',
+    padding:1,
   },
 
   text:{
-    color: '#0000',
-    padding: 20,
+    color: '#fff',
+    padding: 10,
   },
 
 });
