@@ -1,8 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, SafeAreaView, ScrollView, TouchableOpacity, Image, Enumerator} from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, TouchableOpacity, Image, Linking} from 'react-native';
 //import { useState } from 'react';
 
 export default function App() {
+
+  const handlePress = (url) => {
+    Linking.openURL(url);
+  }
+
+  const openLocation = () => {
+    const lat = 33.628263;
+    const long = 73.1004454;
+    const label = 'RWP, Pakistan';
+
+    const url = `geo:${lat},${long}?q=${lat},${long}`;
+    Linking.openURL(url).catch(err => console.error('An error occurred', err));
+
+    //Linking.openURL('https://maps.app.goo.gl/GaVhsMxnc8JaHArh7');
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.heading}>Welcome to My Profile!</Text>
@@ -23,53 +39,82 @@ export default function App() {
 
         <View style={styles.sections}>
           <Text style={styles.smallHeadings}>Certifications:</Text>
+          <View style={styles.textHolder}>
           <Text style={styles.text}>-{'>'} Full Stack Web Development {`(`}React & Node.js{`)`}</Text>
           <Text style={styles.text}>-{'>'} php and MySQL for backend</Text>
           <Text style={styles.text}>-{'>'} Postman API Student Expert</Text>
+          </View>
         </View>
 
         <View style={styles.sections}>
           <Text style={styles.smallHeadings}>Projects:</Text>
-          <ScrollView>
-          <Text style={styles.text}>-{'>'} Personal Portfolio Website {`(`}Web | Front-end{`)`}</Text>
-          <Text style={styles.text}>-{'>'} Car Showroom Management System {`(`}Web | Full Stack{`)`}</Text>
-          <Text style={styles.text}>-{'>'} College Social Media Website {`(`}Web | Front-end{`)`}</Text>
-          <Text style={styles.text}>-{'>'} IT Services Company Website {`(`}Web | Front-end{`)`}</Text>
-          <Text style={styles.text}>-{'>'} E-Commerce Website {`(`}Web | Front-end{`)`}</Text>
-          <Text style={styles.text}>-{'>'} Online Compiler Website {`(`}Web | Front-end{`)`}</Text>
-          <Text></Text>
-          <Text style={styles.text}>-{'>'} Web Scrapper App {`(`}Python | Flask {`)`}</Text>
-          <Text style={styles.text}>-{'>'} Weather Data Fetching App {`(`}Python | Flask {`)`}</Text>
-          <Text></Text>
-          <Text style={styles.text}>-{'>'} Water Reminder App {`(`}JavaScript | React-Native {`)`}</Text>
-          <Text style={styles.text}>-{'>'} Counter App {`(` }JavaScript | React-Native {`)`}</Text>
-          <Text></Text>
-          <Text style={styles.text}>-{'>'} KNN model for Iris Detection system {`(`}Python | ML {`)`}</Text>
-          <Text></Text>
-          <Text style={styles.text}>-{'>'} AutoMobile Sales Management System {`(` }Java | {`)`}</Text>
-          </ScrollView>
+          <View style={styles.textHolder}>
+            <ScrollView style={{ flexGrow:1 }}>
+              <Text style={styles.text}>-{'>'} Personal Portfolio Website {`(`}Web | Front-end{`)`}</Text>
+              <Text style={styles.text}>-{'>'} Car Showroom Management System {`(`}Web | Full Stack{`)`}</Text>
+              <Text style={styles.text}>-{'>'} College Social Media Website {`(`}Web | Front-end{`)`}</Text>
+              <Text style={styles.text}>-{'>'} IT Services Company Website {`(`}Web | Front-end{`)`}</Text>
+              <Text style={styles.text}>-{'>'} E-Commerce Website {`(`}Web | Front-end{`)`}</Text>
+              <Text style={styles.text}>-{'>'} Online Compiler Website {`(`}Web | Front-end{`)`}</Text>
+              <Text></Text>
+              <Text style={styles.text}>-{'>'} Web Scrapper App {`(`}Python | Flask {`)`}</Text>
+              <Text style={styles.text}>-{'>'} Weather Data Fetching App {`(`}Python | Flask {`)`}</Text>
+              <Text style={styles.text}>-{'>'} KNN model for Iris Detection system {`(`}Python | ML {`)`}</Text>
+              <Text></Text>
+              <Text style={styles.text}>-{'>'} Water Reminder App {`(`}JavaScript | React-Native {`)`}</Text>
+              <Text style={styles.text}>-{'>'} Counter App {`(` }JavaScript | React-Native {`)`}</Text>
+              <Text></Text>
+              <Text style={styles.text}>-{'>'} AutoMobile Sales Management System {`(` }Java | {`)`}</Text>
+            </ScrollView>
+          </View>
         </View>
 
         <View style={styles.sections}>
-          Cears thr =======
+          <Text style={styles.smallHeadings}>Skills:</Text>
+          <View style={styles.textHolder}>
+          <ScrollView styles={{ maxHieght:120 }}>
+              <Text style={styles.text}>-{'>'} React Native</Text>
+              <Text style={styles.text}>-{'>'} React</Text>
+              <Text style={styles.text}>-{'>'} HTML, CSS, JS</Text>
+              <Text style={styles.text}>-{'>'} API calling</Text>
+              <Text style={styles.text}>-{'>'} php</Text>
+              <Text style={styles.text}>-{'>'} Laravel</Text>
+              <Text style={styles.text}>-{'>'} MySQL</Text>
+              <Text style={styles.text}>-{'>'} Java</Text>
+              <Text style={styles.text}>-{'>'} Python</Text>
+            </ScrollView>
+              
+          </View>
         </View>
 
-        {/*
-        <Text>My Age is: 25</Text>
-        <Text style={{padding: 20}}>My Address is: 123, ====Main Street, New York, USA</Text>
-        <Text>My Email is: johndoe@example.com</Text>
-        <Text>My Phone Number is: 1234567890</Text>
-        <Text>My Skills are: React Native, Node.js, MongoDB</Text>
-        <Text>My Experience is: 5 Years</Text>
-        
-        <Text>My Certifications are: React Native, Node.js</Text>
-        <Text>My Projects are: 10</Text>
-        <Text>My Goals are: To become a Full Stack Developer</Text>
-        <Text>My Languages are: English, Spanish, French</Text>
-        <Text>My Portfolio is: https://www.example.com/johndoe/portfolio</Text>
-        <Text>My Recommendations are: 5</Text>
-        <Text>My References are: 3</Text>
-        */}
+        <View style={styles.sections}>
+          <Text style={styles.smallHeadings}>Contact:</Text>
+          <View style={styles.textHolder}>
+            <ScrollView>
+              <Text style={styles.text}>-{'>'} Email: 
+                <TouchableOpacity >
+                  <Text style={{color:'#ffff', textDecorationLine:'underline'}} onPress={() => handlePress('mailto:abbas1795khan@gmail.com')}>
+                   Abbas Khan
+                  </Text>
+                </TouchableOpacity>
+              </Text>
+              <Text style={styles.text}>-{'>'} Phone:
+                <TouchableOpacity >
+                  <Text style={{color:'#ffff', textDecorationLine:'underline'}} onPress={() => handlePress('tel:0333-1234567')}>
+                    0333-1234567
+                  </Text>
+                </TouchableOpacity>
+              </Text>
+              <Text style={styles.text}>-{'>'} Address: 
+                <TouchableOpacity >
+                  <Text style={{color:'#ffff', textDecorationLine:'underline'}} onPress={() => openLocation()}>
+                    PAF Jinnah Camp, Rawalpindi, Pakistan
+                  </Text>
+                </TouchableOpacity>
+              </Text>
+            </ScrollView>
+            </View>
+        </View>
       </ScrollView>
       <StatusBar style="auto" />
     </SafeAreaView>
@@ -135,9 +180,13 @@ const styles = StyleSheet.create({
     padding:1,
   },
 
+  textHolder:{
+    padding:4,
+  },
+
   text:{
     color: '#fff',
-    padding: 10,
+    padding: 4,
   },
 
 });
