@@ -70,24 +70,24 @@ ListDisplayApp/
 ## 🌟 Code Highlights
 
 Data Rendering Logic
-    ```javascript
-        const projects = {
-        'Python': 'Web Scrapper',
-        'Java': 'AutoMobile Sales Management System',
-        'Web': 'E-commerce Website',
-        'React Native': 'Water Reminder App',
-        'C# .NET': 'AutoMobile Sales Management System',
-        'Databases': 'Railways Management System'
-        };
-        <ScrollView>
-        {Object.keys(myprojs).map((key, index) => (
-            <View key={index} style={styles.itemContainer}>
-            <Text style={styles.itemTitle}>{key}</Text>
-            <Text style={styles.itemDescription}>{myprojs[key]}</Text>
-            </View>
-        ))}
-        </ScrollView>
-    ```
+```javascript
+    const projects = {
+    'Python': 'Web Scrapper',
+    'Java': 'AutoMobile Sales Management System',
+    'Web': 'E-commerce Website',
+    'React Native': 'Water Reminder App',
+    'C# .NET': 'AutoMobile Sales Management System',
+    'Databases': 'Railways Management System'
+    };
+    <ScrollView>
+    {Object.keys(myprojs).map((key, index) => (
+        <View key={index} style={styles.itemContainer}>
+        <Text style={styles.itemTitle}>{key}</Text>
+        <Text style={styles.itemDescription}>{myprojs[key]}</Text>
+        </View>
+    ))}
+    </ScrollView>
+```
 
 ## 🌟 Future Enhancements
 
@@ -124,10 +124,10 @@ Contributions, issues, and feature requests are welcome! Start by:
 
 **Author**: Abbas Khan
 
-Email: abbas1795khan@gmail.com
+**Email**: [abbas1795khan@gmail.com](mailto:abbas1795khan@gmail.com)
 
-LinkedIn: https://linkedin.com/in/the-abbas-khan
+**LinkedIn**: [The_Abbas_Khan](https://linkedin.com/in/the-abbas-khan)
 
-GitHub: https://github.com/flickShot555
+**GitHub**: [flickShot555](https://github.com/flickShot555/)
 
-Website: https://www.aepostrophee.kesug.com
+**Portfolio**: [Aepostrophee](https://www.aepostrophee.kesug.com)
