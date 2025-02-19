@@ -80,18 +80,22 @@ Contributions are what make the open-source community such an amazing place to l
 Contributions are welcome! Follow these steps:
 
 1. Fork the repository.
+
 2. Create your feature branch:
-    ```bash
-    git checkout -b feature/AmazingFeature
-    ```
+```bash
+git checkout -b feature/AmazingFeature
+```
+
 3. Commit your changes:
-    ```bash
-    git commit -m 'Add some AmazingFeature'
-    ```
+```bash
+git commit -m 'Add some AmazingFeature'
+```
+
 4. Push to the branch:
-    ```bash
-    git push origin feature/AmazingFeature
-    ```
+```bash
+git push origin feature/AmazingFeature
+```
+
 5. Open a pull request.
 
 
@@ -99,10 +103,10 @@ Contributions are welcome! Follow these steps:
 
 ### Author: Abbas Khan
 
-Email: abbas1795khan@gmail.com
+**Email**: [abbas179khan@gmail.com] (mailto: abbas1795khan@gmail.com)
 
-LinkedIn: https://linkedin.com/in/the-abbas-khan
+**LinkedIn**: [The_Abbas_Khan] (https://linkedin.com/in/the-abbas-khan)
 
-GitHub: https://github.com/flickShot555/
+**GitHub**: [flickShot555] (https://github.com/flickShot555/)
 
-Website: https://www.aepostrophee.kesug.com/
+**Website**: [Aepostrophee] (https://www.aepostrophee.kesug.com/)

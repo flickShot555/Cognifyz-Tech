@@ -20,8 +20,8 @@ A minimal demonstration app showing basic data loading functionality in React Na
 - iOS/Android simulator or physical device
 
 ```bash
-git clone https://github.com/yourusername/data-loader-app.git
-cd data-loader-app
+git clone https://github.com/flickShot555/FetchandDisplayDataApp.git
+cd FetchandDisplayDataApp
 npm install
 ```
 
@@ -44,6 +44,38 @@ npx react-native run-android
 -View the scrollable list of loaded items
 
 -Scroll through the displayed items
+
+
+## 🏗️ Project Structure
+
+Basic-app/
+
+├── .expo                 # Expo configuration files
+
+├── assets                # Image assets
+
+├── node_modules          # Dependency management
+
+├── .gitignore            # Git configuration
+
+├── App.js                # Main application component
+
+├── app.json              # app configuration
+
+├── index.js              # Main application entry point
+
+├── package-lock.json     # Dependency management
+
+├── package.json          # Dependency management
+
+└── README.md             # Project documentation
+
+## 🛠️ Technologies Used
+
+- React Native
+
+- Expo
+
 
 
 ## Code Structure
