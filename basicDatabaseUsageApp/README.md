@@ -57,6 +57,30 @@ Checks for empty fields before "entry" operation
 - UI Components
 Custom-styled inputs, buttons, and status messages
 
+### 🏗️ Project Structure
+
+basicDatabaseUsageApp/
+
+├── .expo                 # Expo configuration files
+
+├── assets                # Image assets
+
+├── node_modules          # Dependency management
+
+├── .gitignore            # Git configuration
+
+├── App.js                # Main application component
+
+├── app.json              # app configuration
+
+├── index.js              # Main application entry point
+
+├── package-lock.json     # Dependency management
+
+├── package.json          # Dependency management
+
+└── README.md             # Project documentation
+
 ### Componnet Structure
 
 // State initialization
@@ -118,6 +142,7 @@ const handleFetchData = () => { /* retrieval simulation */ };
 ## Contact
 
 **Author** Abbas Khan
-**Email** abbas1795khan@gmail.com
-**Website** https://www.aepostrophee.kesug.com
-**Github** https://github.com/flickShot555/
+**Email** [abbas1795khan@gmail.com](mailto:abbas1795khan@gmail.com)
+**Website** [Aepostrophee](https://www.aepostrophee.kesug.com)
+**Github** [flickShot555](https://github.com/flickShot555/)
+**LinkedIn** [The_Abbas_Khan](linkedin.com/in/abbaskhan)
