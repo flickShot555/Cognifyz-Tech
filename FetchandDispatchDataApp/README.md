@@ -48,7 +48,7 @@ npx react-native run-android
 
 ## 🏗️ Project Structure
 
-Basic-app/
+FetchandDispatchDataApp/
 
 ├── .expo                 # Expo configuration files
 

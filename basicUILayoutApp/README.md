@@ -33,6 +33,30 @@ A professional portfolio mobile application showcasing personal information, pro
 
 ## App Structure
 
+### 🏗️ Project Structure
+
+basicUILayoutApp/
+
+├── .expo                 # Expo configuration files
+
+├── assets                # Image assets
+
+├── node_modules          # Dependency management
+
+├── .gitignore            # Git configuration
+
+├── App.js                # Main application component
+
+├── app.json              # app configuration
+
+├── index.js              # Main application entry point
+
+├── package-lock.json     # Dependency management
+
+├── package.json          # Dependency management
+
+└── README.md             # Project documentation
+
 ### Core Components
 **Interactive Contact System**
 
@@ -156,12 +180,29 @@ Body Text: 14px Regular
 
 ## Contribution Guidelines
 
-    -Fork the repository
+-Fork the repository
 
-    -Create feature branch (git checkout -b feature/improvement)
+-Create feature branch
+```bash
+git checkout -b feature/improvement
+```
 
-    -Commit changes with descriptive messages
+-Commit changes with descriptive messages
+```bash
+git commit -m 'Add new feature'
+```
 
-    -Push to branch
+-Push to branch
+```bash
+git push origin feature/improvement
+```
 
-    -Open pull request
+-Open pull request
+
+## Contact
+
+**Author** Abbas Khan
+**Email** [abbaskhan@gmail.com](mailto:abbaskhan@gmail.com)
+**LinkedIn**  [The_Abbas_Khan](linkedin.com/in/abbaskhan)
+**Portfolio** [Aepostrophee](https://www.aepostrophee.kesug.com)
+**GitHub** [flickShot555](https://github.com/flickShot555/)
