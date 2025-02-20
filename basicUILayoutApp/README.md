@@ -202,7 +202,11 @@ git push origin feature/improvement
 ## Contact
 
 **Author** Abbas Khan
+
 **Email** [abbaskhan@gmail.com](mailto:abbaskhan@gmail.com)
+
 **LinkedIn**  [The_Abbas_Khan](linkedin.com/in/abbaskhan)
+
 **Portfolio** [Aepostrophee](https://www.aepostrophee.kesug.com)
+
 **GitHub** [flickShot555](https://github.com/flickShot555/)
