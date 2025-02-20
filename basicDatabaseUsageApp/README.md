@@ -142,7 +142,11 @@ const handleFetchData = () => { /* retrieval simulation */ };
 ## Contact
 
 **Author** Abbas Khan
+
 **Email** [abbas1795khan@gmail.com](mailto:abbas1795khan@gmail.com)
+
 **Website** [Aepostrophee](https://www.aepostrophee.kesug.com)
+
 **Github** [flickShot555](https://github.com/flickShot555/)
+
 **LinkedIn** [The_Abbas_Khan](linkedin.com/in/abbaskhan)
