@@ -103,7 +103,7 @@ git push origin feature/AmazingFeature
 
 ### Author: Abbas Khan
 
-**Email**: [abbas179khan@gmail.com](mailto: abbas1795khan@gmail.com)
+**Email**: [abbas179khan@gmail.com](mailto:abbas1795khan@gmail.com)
 
 **LinkedIn**: [The_Abbas_Khan](https://linkedin.com/in/the-abbas-khan)
 
