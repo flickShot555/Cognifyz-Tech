@@ -128,7 +128,11 @@ Text	        Simple, readable typography
 ## Contact
 
 **Author**      Abbas Khan
+
 **Email**       [abbas1795khan@gmail.com](mailto:abbas1795khan@gmail.com)
+
 **Github**      [flickShot555](https://github.com/flickShot555/)
+
 **LinkedIn**    [The_Abbas_Khan](https://linkedin.com/in/the-abbas-khan)
+
 **Portfolio**   [Aepostrophee](https://www.aepostrophee.kesug.com)
