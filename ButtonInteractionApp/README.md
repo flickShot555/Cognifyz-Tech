@@ -103,10 +103,10 @@ git push origin feature/AmazingFeature
 
 ### Author: Abbas Khan
 
-**Email**: [abbas179khan@gmail.com] (mailto: abbas1795khan@gmail.com)
+**Email**: [abbas179khan@gmail.com](mailto: abbas1795khan@gmail.com)
 
-**LinkedIn**: [The_Abbas_Khan] (https://linkedin.com/in/the-abbas-khan)
+**LinkedIn**: [The_Abbas_Khan](https://linkedin.com/in/the-abbas-khan)
 
-**GitHub**: [flickShot555] (https://github.com/flickShot555/)
+**GitHub**: [flickShot555](https://github.com/flickShot555/)
 
-**Website**: [Aepostrophee] (https://www.aepostrophee.kesug.com/)
+**Website**: [Aepostrophee](https://www.aepostrophee.kesug.com/)
